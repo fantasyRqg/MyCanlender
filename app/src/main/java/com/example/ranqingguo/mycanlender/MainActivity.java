@@ -12,7 +12,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         CalendarView calendarView = (CalendarView) findViewById(R.id.calendar_view);
-        calendarView.setSelectMode(CalendarView.SELECT_DAY_BEFORE_TODAY, CalendarView.SINGLE_SELECT);
+        calendarView.setSelectMode(CalendarView.SELECT_DAY_BEFORE_TODAY, CalendarView.MULTI_SELECT);
         calendarView.setDisplayLines(5);
     }
 
